@@ -12,6 +12,7 @@ var generateBtn = document.querySelector("#generate");
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
+// Function to create and execute prompts for user selection 
 function getPrompts() {
   choiceArr = [];
 
@@ -40,7 +41,7 @@ function getPrompts() {
   return true;
 }
 
-// Start function to generate password
+// Start function to generate password using choiceArr as selected by user
 var generatePassword = function () {
   var password = "";
   for(var i = 0; i < characterLength; i++) {
@@ -50,6 +51,7 @@ var generatePassword = function () {
   return password;
 }
 
+// Function to write generated password in text box 
 function writePassword() {
   var correctPrompts = getPrompts();
 
