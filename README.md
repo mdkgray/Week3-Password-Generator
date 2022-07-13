@@ -21,7 +21,7 @@ The motivation for this project was to develop a random password generator that 
 
 
 ## Website URL
-[Click Here](https://mdkgray.github.io/Week3_Password_Generator/)
+[Click Here](https://mdkgray.github.io/password_generator/)
 
 ## Screenshots 
 ![PasswordGenerator](./Assets/PasswordGenerator.PNG)
