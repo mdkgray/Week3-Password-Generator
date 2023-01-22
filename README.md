@@ -1,12 +1,12 @@
-# Week 3 Random Password Generator Assignment 
+# Random Password Generator 
 
 ### By Mackenzie Gray
 
 ## Technologies Used
 
 - Javascript
-- HTML (codebase provided)
-- CSS (codebase provided)
+- HTML
+- CSS 
 
 ## Description 
 
@@ -19,9 +19,8 @@ The motivation for this project was to develop a random password generator that 
 - Writing of function that generates the random password once character criteria has returned true. This function includes a 'for' loop and subsequent 'math' function to select characters at random from the choice array. 
 - Ensuring that written code property communicates with the function that writes the generated code into the text box on the browser. 
 
-
-## Website URL
-[Click Here](https://mdkgray.github.io/password_generator/)
+## Deployed Application
+[Click here to view](https://mdkgray.github.io/password_generator/)
 
 ## Screenshots 
-![PasswordGenerator](./Assets/PasswordGenerator.PNG)
+![PasswordGenerator](./Assets/Screenshots/password_generator.png)
